@@ -1,0 +1,14 @@
+all: bfl
+
+SVN_DIR = build/orocos-bfl-0.8.0
+SVN_URL = http://svn.mech.kuleuven.be/repos/orocos/branches/bfl/branch-0.8/
+SVN_REVISION = -r 33362
+SVN_PATCH = orocos-bfl-0.8.0.patch boost-reference.patch total.patch
+include $(shell rospack find mk)/svn_checkout.mk
+
+bfl: $(SVN_DIR) patched
+
+clean:
+	-rm -rf src $(SOURCE_DIR)
+wipe: clean
+	-rm -rf build

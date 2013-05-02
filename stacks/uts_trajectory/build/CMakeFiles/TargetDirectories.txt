@@ -1,0 +1,16 @@
+/home/kholidarrofi/ros/uts_trajectory/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir
+/home/kholidarrofi/ros/uts_trajectory/build/CMakeFiles/ROSBUILD_genmsg_lisp.dir
+/home/kholidarrofi/ros/uts_trajectory/build/CMakeFiles/ROSBUILD_gensrv_cpp.dir
+/home/kholidarrofi/ros/uts_trajectory/build/CMakeFiles/ROSBUILD_gensrv_lisp.dir
+/home/kholidarrofi/ros/uts_trajectory/build/CMakeFiles/clean-test-results.dir
+/home/kholidarrofi/ros/uts_trajectory/build/CMakeFiles/frankenstein_map.dir
+/home/kholidarrofi/ros/uts_trajectory/build/CMakeFiles/rosbuild_precompile.dir
+/home/kholidarrofi/ros/uts_trajectory/build/CMakeFiles/rosbuild_premsgsrvgen.dir
+/home/kholidarrofi/ros/uts_trajectory/build/CMakeFiles/rospack_genmsg.dir
+/home/kholidarrofi/ros/uts_trajectory/build/CMakeFiles/rospack_genmsg_libexe.dir
+/home/kholidarrofi/ros/uts_trajectory/build/CMakeFiles/rospack_gensrv.dir
+/home/kholidarrofi/ros/uts_trajectory/build/CMakeFiles/test.dir
+/home/kholidarrofi/ros/uts_trajectory/build/CMakeFiles/test-future.dir
+/home/kholidarrofi/ros/uts_trajectory/build/CMakeFiles/test-results.dir
+/home/kholidarrofi/ros/uts_trajectory/build/CMakeFiles/test-results-run.dir
+/home/kholidarrofi/ros/uts_trajectory/build/CMakeFiles/tests.dir

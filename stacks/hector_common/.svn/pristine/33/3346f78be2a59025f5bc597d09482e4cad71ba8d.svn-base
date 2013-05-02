@@ -1,0 +1,49 @@
+Index: src/wrappers/matrix/CMakeLists.txt
+===================================================================
+--- src/wrappers/matrix/CMakeLists.txt	(revision 33362)
++++ src/wrappers/matrix/CMakeLists.txt	(working copy)
+@@ -1,5 +1,4 @@
+-GLOBAL_ADD_INCLUDE_DIR( ${CMAKE_SOURCE_DIR}/src/wrappers/matrix )
+-GLOBAL_ADD_INCLUDE_DIR( ${CMAKE_BINARY_DIR}/src/wrappers/matrix )
++GLOBAL_ADD_INCLUDE_DIR( ${PROJECT_SOURCE_DIR}/src/wrappers/matrix )
++GLOBAL_ADD_INCLUDE_DIR( ${PROJECT_BINARY_DIR}/src/wrappers/matrix )
+ GLOBAL_ADD_INCLUDE_DIR( ${MATRIX_INCLUDE} )
+-GLOBAL_ADD_INCLUDE( bfl/wrappers/ ${CMAKE_BINARY_DIR}/src/wrappers/config.h)
+ GLOBAL_ADD_INCLUDE( bfl/wrappers/matrix matrix_wrapper.h vector_wrapper.h matrix_BOOST.h vector_BOOST.h
+ 
+Index: src/wrappers/rng/rng.cpp
+===================================================================
+--- src/wrappers/rng/rng.cpp	(revision 33362)
++++ src/wrappers/rng/rng.cpp	(working copy)
+@@ -16,7 +16,7 @@
+ //
+ #include "rng.h"
+ 
+-#include <../config.h>
++#include "../config.h"
+ #ifdef __RNGWRAPPER_BOOST__  // BOOST RANDOM LIBRARY
+ // THE BOOST RANDOM NUMBER GENERATION LIBRARY
+ 
+Index: src/wrappers/rng/CMakeLists.txt
+===================================================================
+--- src/wrappers/rng/CMakeLists.txt	(revision 33362)
++++ src/wrappers/rng/CMakeLists.txt	(working copy)
+@@ -1,6 +1,5 @@
+-GLOBAL_ADD_INCLUDE_DIR( ${CMAKE_SOURCE_DIR}/src/wrappers/rng )
+-GLOBAL_ADD_INCLUDE_DIR( ${CMAKE_BINARY_DIR}/src/wrappers/rng )
++GLOBAL_ADD_INCLUDE_DIR( ${PROJECT_SOURCE_DIR}/src/wrappers/rng )
++GLOBAL_ADD_INCLUDE_DIR( ${PROJECT_BINARY_DIR}/src/wrappers/rng )
+ GLOBAL_ADD_INCLUDE_DIR( ${RNG_INCLUDE} )
+-GLOBAL_ADD_INCLUDE( bfl/wrappers/ ${CMAKE_BINARY_DIR}/src/wrappers/config.h)
+ GLOBAL_ADD_INCLUDE( bfl/wrappers/rng rng.h )
+ GLOBAL_ADD_SRC ( wrappers/rng/rng.cpp )
+Index: src/wrappers/CMakeLists.txt
+===================================================================
+--- src/wrappers/CMakeLists.txt	(revision 33362)
++++ src/wrappers/CMakeLists.txt	(working copy)
+@@ -4,4 +4,5 @@
+ ### Generate config.h : HAS NO ACCESS TO SUBDIRECTORY VARIABLES !!!
+ CONFIGURE_FILE( ${PROJ_SOURCE_DIR}/src/wrappers/config.h.in
+     ${PROJ_BINARY_DIR}/src/wrappers/config.h)
++GLOBAL_ADD_INCLUDE( bfl/wrappers/ ${PROJ_BINARY_DIR}/src/wrappers/config.h)
+ 

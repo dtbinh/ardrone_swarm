@@ -1,0 +1,174 @@
+/**
+ * File : main.cpp (package uts_trajectory)
+ * revisi UTS kelas robotika semester genap tahun 2011/2012
+ * 
+ * */
+ 
+ /**
+  * Library yang digunakan
+  * */
+#include <iostream>
+#include "ros/ros.h"
+#include "std_msgs/String.h"
+#include "cmvision/Blob.h"
+#include "cmvision/Blobs.h"
+#include "ardrone_autonomy/Navdata.h"
+#include "std_msgs/Empty.h"
+#include "geometry_msgs/Twist.h"
+#include "geometry_msgs/Pose.h"
+#include "std_msgs/Empty.h"
+
+
+//Untuk trajectory 
+#include <ros/ros.h>
+#include <opencv/cv.h>
+#include <opencv/highgui.h>
+#include <opencv2/highgui/highgui.hpp>
+#include <sensor_msgs/Image.h>
+
+//Definisi ukuran gambar (image) 
+#define IMAGE_WIDTH 800
+#define IMAGE_HEIGHT 600
+#define IMAGE_MIDDLE_X 400
+#define IMAGE_MIDDLE_Y 300
+
+
+using namespace cmvision;
+
+
+/**
+  * Atribut subscriber, publisher dan pesan (message)
+  */
+ros::Publisher landing; 
+ros::Publisher velo; 
+ros::Publisher takeoff; 
+ros::Subscriber nav;    
+std_msgs::Empty empty;
+
+//Kecepatan actual (sebenarnya dari ardrone (mm/s))
+float vx;
+float vy;
+
+//Posisi quadcopter (cm) terhadap posisi awal map dibuat
+int ardrone_x;
+int ardrone_y;
+
+//Konstantan waktu (speed = mm/s * 1 s u untuk setiap loop, sehingga jarak = 0.1 * speed (cm))
+float time_ = 0.1;
+
+//Tipe data untuk gambar dan window map
+IplImage *mapImage;
+CvSize imageSize = cvSize(800, 630); 
+char* mapWindow = "Map Window";
+
+
+/** Fungsi yang dipanggil secara callback saat ada Navdata
+  * Fungsi ini akan menangkap data pada tipe data Navdata dan mengupdate
+  * posisi ardrone (terhadap titik awal terbang)
+  */
+void navi(const ardrone_autonomy::Navdata& msg){
+	ardrone_x += msg.vx * time_;
+	ardrone_y += msg.vy * time_;
+
+	int pixel_x = IMAGE_MIDDLE_X - ardrone_y;
+	int pixel_y = IMAGE_MIDDLE_Y - ardrone_x;
+	cvCircle(mapImage, cvPoint(pixel_x, pixel_y),6, CV_RGB(0,255,0), -1, 8, 0);
+    ROS_INFO("draw ardrone pos (%d,%d) \n",ardrone_x,ardrone_y);
+}
+
+
+/**
+ * Fungsi initGanbar dipanggil sekali, saat program dijalankan
+ * Yang dilakuakn dalam fungsi ini adalah mempersiapkan gambar peta (map)
+ * yang meliputi grid, dan keterangan.
+ * */
+void initGambar() {
+	//Init image (set seluruh pixel putih)
+    mapImage    = cvCreateImage(imageSize, IPL_DEPTH_8U, 3);
+	cvNamedWindow(mapWindow, CV_WINDOW_AUTOSIZE);
+	for(int y=0; y<mapImage->height; y++ ) {
+        uchar* ptr = (uchar*) (
+        mapImage->imageData + y * mapImage->widthStep);
+        for(int x=0; x<mapImage->width; x++ ) {
+            ptr[3*x] = 255;
+            ptr[3*x+1] = 255;
+			ptr[3*x+2] = 255;         
+        }
+    }
+    
+    //Make grid
+    int x1 = 0, x2=800, y1=0, y2=0;
+    //Grif horizontal
+    while (y2 <= 600) {
+		cvLine(mapImage, cvPoint(x1,y1), cvPoint(x2,y2), CV_RGB(0,0,255), 1, 8, 0);
+		y1+=50;
+		y2+=50;
+	}
+	//Grid Vertical
+	x1 = 0; x2=0; y1=0; y2=600;
+	while (x2 <= 800) {
+		cvLine(mapImage, cvPoint(x1,y1), cvPoint(x2,y2), CV_RGB(0,0,255), 1, 8, 0);
+		x1+=50;
+		x2+=50;
+	}
+	
+	//Special axis (axis horiontal dan vertikal tengah)
+	cvLine(mapImage, cvPoint(0,300), cvPoint(800,300), CV_RGB(0,0,255), 2, 8, 0);
+	cvLine(mapImage, cvPoint(400,0), cvPoint(400,600), CV_RGB(0,0,255), 2, 8, 0);
+	//Titik pusat (terngah peta)
+	cvCircle(mapImage, cvPoint(400,300),3, CV_RGB(0,0,255), -1, 8, 0 );
+    //Kasih tulisan beberapa keterangan
+    CvFont font;
+    cvInitFont(&font, CV_FONT_HERSHEY_SIMPLEX, 0.3, 0.3, 0, 1, CV_AA);
+    cvPutText(mapImage, "(0,0)", cvPoint(410,290), &font, CV_RGB(0,0,0));
+	cvPutText(mapImage, "(0,-4) m", cvPoint(760,290), &font, CV_RGB(0,0,0));
+	cvPutText(mapImage, "(0,4) m", cvPoint(10,290), &font, CV_RGB(0,0,0));
+	cvPutText(mapImage, "(3,0) m", cvPoint(410,10), &font, CV_RGB(0,0,0));
+	cvPutText(mapImage, "(-3,0) m", cvPoint(410,590), &font, CV_RGB(0,0,0));
+    cvPutText(mapImage, "Keterangan :", cvPoint(10,615), &font, CV_RGB(0,0,0));
+    cvCircle(mapImage, cvPoint(100, 612),7, CV_RGB(0,255,0), -1, 8, 0);
+    cvPutText(mapImage, " = Quadcopter, ", cvPoint(120,615), &font, CV_RGB(0,0,0));
+    cvCircle(mapImage, cvPoint(220, 612),7, CV_RGB(255,0,0), -1, 8, 0);
+    cvPutText(mapImage, " = Target (rabbit), Koordinat (x,y) : x+=depan, y+=kiri ", cvPoint(230,615), &font, CV_RGB(0,0,0));
+}
+
+/**
+ * Fungsi updateGambar dipanggil secara berkala setiap satu detik dalam loop
+ * DIbutuhkan delay (wait) agar gambar bisa dilihat (tidak kosong) saat ditampilkan
+ * pada jendela
+ * */
+void updateGambar() {
+	cvShowImage(mapWindow, mapImage);
+	cvWaitKey(1);
+}
+
+/**
+ * Fungsi main : tempat program pertama kali dijalankan
+ * 
+ */
+int main(int argc, char **argv)
+{
+  //Inisialisasi 
+  ros::init(argc, argv, "uts_node");
+
+  //Inisialisasi variable
+  ros::NodeHandle control, n;
+  ROS_INFO("Frankenstein \n");  	
+  velo =  control.advertise<geometry_msgs::Twist>("/cmd_vel",10);
+
+  //inisialisasi fungsi callback
+  nav = control.subscribe("/ardrone/navdata",10,&navi);
+
+  //Inisialisasi gambar
+  initGambar();
+  
+  //Infinite loop saat program dijalankan
+  while(ros::ok()) {
+	  //update gambar
+	 updateGambar();
+	 //Baca sensor
+     ros::spinOnce();
+     ros::spinOnce();   
+  }
+  return 0;
+}

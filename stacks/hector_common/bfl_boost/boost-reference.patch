@@ -1,0 +1,35 @@
+Index: src/wrappers/matrix/vector_BOOST.cpp
+===================================================================
+--- src/wrappers/matrix/vector_BOOST.cpp	(revision 33362)
++++ src/wrappers/matrix/vector_BOOST.cpp	(working copy)
+@@ -100,7 +100,7 @@
+ double MyColumnVector::operator()(unsigned int i) const
+ {
+   //std::cout << "(BOOSTVECTOR) operator() called" << std::endl;
+-  const BoostColumnVector op1 = (*this);
++  const BoostColumnVector& op1 = (*this);
+   return op1(i-1);
+ }
+ 
+@@ -308,7 +308,7 @@
+ double MyRowVector::operator()(unsigned int i) const
+ {
+   //std::cout << "(BOOSTVECTOR) operator() called" << std::endl;
+-  BoostRowVector op1 = (*this);
++  const BoostRowVector& op1 = (*this);
+   return op1(i-1);
+ }
+ 
+Index: src/wrappers/matrix/matrix_BOOST.cpp
+===================================================================
+--- src/wrappers/matrix/matrix_BOOST.cpp	(revision 33362)
++++ src/wrappers/matrix/matrix_BOOST.cpp	(working copy)
+@@ -177,7 +177,7 @@
+ 
+ double MyMatrix::operator()(unsigned int a, unsigned int b) const
+ {
+-  BoostMatrix  op1(*this);
++  const BoostMatrix & op1(*this);
+   return op1(a-1,b-1);
+ }
+ 

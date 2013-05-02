@@ -1,0 +1,16 @@
+all: bfl
+
+TARBALL = build/orocos-bfl-0.8.0-src.tar.bz2
+TARBALL_URL = http://people.mech.kuleuven.be/~tdelaet/bfl_tar/orocos-bfl-0.8.0-src.tar.bz2
+TARBALL_PATCH = orocos-bfl-0.8.0.patch boost-reference.patch total.patch
+SOURCE_DIR = build/orocos-bfl-0.8.0
+MD5SUM_FILE = orocos-bfl-0.8.0-src.tar.bz2.md5sum
+UNPACK_CMD = tar xjf
+include $(shell rospack find mk)/download_unpack_build.mk
+
+bfl: $(SOURCE_DIR)/unpacked
+
+clean:
+	-rm -rf src $(SOURCE_DIR)
+wipe: clean
+	-rm -rf build

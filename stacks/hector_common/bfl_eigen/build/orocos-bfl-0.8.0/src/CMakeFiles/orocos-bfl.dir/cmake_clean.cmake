@@ -1,0 +1,43 @@
+FILE(REMOVE_RECURSE
+  "CMakeFiles/orocos-bfl.dir/wrappers/matrix/matrix_BOOST.o"
+  "CMakeFiles/orocos-bfl.dir/wrappers/matrix/vector_BOOST.o"
+  "CMakeFiles/orocos-bfl.dir/wrappers/matrix/matrix_NEWMAT.o"
+  "CMakeFiles/orocos-bfl.dir/wrappers/matrix/vector_NEWMAT.o"
+  "CMakeFiles/orocos-bfl.dir/wrappers/matrix/matrix_LTI.o"
+  "CMakeFiles/orocos-bfl.dir/wrappers/matrix/vector_LTI.o"
+  "CMakeFiles/orocos-bfl.dir/wrappers/matrix/matrix_EIGEN.o"
+  "CMakeFiles/orocos-bfl.dir/wrappers/matrix/vector_EIGEN.o"
+  "CMakeFiles/orocos-bfl.dir/wrappers/matrix/matrix_wrapper.o"
+  "CMakeFiles/orocos-bfl.dir/wrappers/rng/rng.o"
+  "CMakeFiles/orocos-bfl.dir/pdf/analyticconditionalgaussian.o"
+  "CMakeFiles/orocos-bfl.dir/pdf/conditionalgaussian.o"
+  "CMakeFiles/orocos-bfl.dir/pdf/gaussian.o"
+  "CMakeFiles/orocos-bfl.dir/pdf/uniform.o"
+  "CMakeFiles/orocos-bfl.dir/pdf/conditionalgaussian_additivenoise.o"
+  "CMakeFiles/orocos-bfl.dir/pdf/analyticconditionalgaussian_additivenoise.o"
+  "CMakeFiles/orocos-bfl.dir/pdf/linearanalyticconditionalgaussian.o"
+  "CMakeFiles/orocos-bfl.dir/pdf/filterproposaldensity.o"
+  "CMakeFiles/orocos-bfl.dir/pdf/EKF_proposaldensity.o"
+  "CMakeFiles/orocos-bfl.dir/pdf/discretepdf.o"
+  "CMakeFiles/orocos-bfl.dir/pdf/discreteconditionalpdf.o"
+  "CMakeFiles/orocos-bfl.dir/model/analyticmeasurementmodel_gaussianuncertainty.o"
+  "CMakeFiles/orocos-bfl.dir/model/analyticsystemmodel_gaussianuncertainty.o"
+  "CMakeFiles/orocos-bfl.dir/model/linearanalyticsystemmodel_gaussianuncertainty.o"
+  "CMakeFiles/orocos-bfl.dir/model/linearanalyticmeasurementmodel_gaussianuncertainty.o"
+  "CMakeFiles/orocos-bfl.dir/model/discretesystemmodel.o"
+  "CMakeFiles/orocos-bfl.dir/model/linearanalyticmeasurementmodel_gaussianuncertainty_implicit.o"
+  "CMakeFiles/orocos-bfl.dir/filter/iteratedextendedkalmanfilter.o"
+  "CMakeFiles/orocos-bfl.dir/filter/kalmanfilter.o"
+  "CMakeFiles/orocos-bfl.dir/filter/extendedkalmanfilter.o"
+  "CMakeFiles/orocos-bfl.dir/filter/EKparticlefilter.o"
+  "CMakeFiles/orocos-bfl.dir/filter/SRiteratedextendedkalmanfilter.o"
+  "CMakeFiles/orocos-bfl.dir/filter/innovationCheck.o"
+  "CMakeFiles/orocos-bfl.dir/smoother/rauchtungstriebel.o"
+  "../../../lib/liborocos-bfl.pdb"
+  "../../../lib/liborocos-bfl.so"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/orocos-bfl.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

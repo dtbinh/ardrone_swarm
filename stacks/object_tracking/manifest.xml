@@ -1,0 +1,20 @@
+<package>
+  <description brief="object_tracking">
+
+     object_tracking
+
+  </description>
+  <author>Futuhal Arifin Annasri</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/object_tracking</url>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="sensor_msgs"/>
+  <depend package="image_transport"/>
+  <depend package="opencv2"/>
+  <depend package="cv_bridge"/>
+
+</package>
+
+

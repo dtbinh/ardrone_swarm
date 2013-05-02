@@ -1,0 +1,9 @@
+prefix=/home/futuhal57/ros/stacks/hector_common/bfl_boost/install
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: orocos-bfl
+Description: Orocos Bayesian Filtering Library
+Version: 0.8.0
+Libs: -L${libdir} -lorocos-bfl   
+Cflags: -I${includedir} -I/usr/include -I/usr/include -I

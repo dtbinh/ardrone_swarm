@@ -1,0 +1,114 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3590567138/fast"
+make[1]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3590567138.dir/build.make CMakeFiles/cmTryCompileExec3590567138.dir/build
+make[2]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3590567138.dir/CheckSymbolExists.c.o
+/usr/bin/gcc-4.6    -o CMakeFiles/cmTryCompileExec3590567138.dir/CheckSymbolExists.c.o   -c /home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3590567138
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3590567138.dir/link.txt --verbose=1
+/usr/bin/gcc-4.6         CMakeFiles/cmTryCompileExec3590567138.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3590567138 -rdynamic 
+CMakeFiles/cmTryCompileExec3590567138.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0xa): undefined reference to `pthread_create'
+collect2: ld returned 1 exit status
+make[2]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec3590567138] Error 1
+make[1]: *** [cmTryCompileExec3590567138/fast] Error 2
+make[1]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp'
+
+File /home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec566985145/fast"
+make[1]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec566985145.dir/build.make CMakeFiles/cmTryCompileExec566985145.dir/build
+make[2]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec566985145.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-4.6   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec566985145.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec566985145
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec566985145.dir/link.txt --verbose=1
+/usr/bin/gcc-4.6     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec566985145.dir/CheckFunctionExists.c.o  -o cmTryCompileExec566985145 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: ld returned 1 exit status
+make[2]: *** [cmTryCompileExec566985145] Error 1
+make[2]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec566985145/fast] Error 2
+make[1]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec640870466/fast"
+make[1]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec640870466.dir/build.make CMakeFiles/cmTryCompileExec640870466.dir/build
+make[2]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec640870466.dir/CheckSymbolExists.c.o
+/usr/bin/gcc-4.6    -o CMakeFiles/cmTryCompileExec640870466.dir/CheckSymbolExists.c.o   -c /home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec640870466
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec640870466.dir/link.txt --verbose=1
+/usr/bin/gcc-4.6         CMakeFiles/cmTryCompileExec640870466.dir/CheckSymbolExists.c.o  -o cmTryCompileExec640870466 -rdynamic 
+CMakeFiles/cmTryCompileExec640870466.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0xa): undefined reference to `pthread_create'
+collect2: ld returned 1 exit status
+make[2]: *** [cmTryCompileExec640870466] Error 1
+make[2]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec640870466/fast] Error 2
+make[1]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp'
+
+File /home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec29416198/fast"
+make[1]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec29416198.dir/build.make CMakeFiles/cmTryCompileExec29416198.dir/build
+make[2]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec29416198.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-4.6   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec29416198.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec29416198
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec29416198.dir/link.txt --verbose=1
+/usr/bin/gcc-4.6     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec29416198.dir/CheckFunctionExists.c.o  -o cmTryCompileExec29416198 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: ld returned 1 exit status
+make[2]: *** [cmTryCompileExec29416198] Error 1
+make[2]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec29416198/fast] Error 2
+make[1]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_imu_attitude_to_tf/build/CMakeFiles/CMakeTmp'
+
+

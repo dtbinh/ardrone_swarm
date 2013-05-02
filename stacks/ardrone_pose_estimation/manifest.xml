@@ -1,0 +1,23 @@
+<package>
+  <description brief="ardrone_pose_estimation">
+
+     ardrone_pose_estimation
+
+  </description>
+  <author>enddl22</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/ardrone_pose_estimation</url>
+  <depend package="tf"/>
+  <depend package="roscpp"/>
+  <depend package="rosparam"/>
+  <depend package="control_toolbox"/>
+  <depend package="geometry_msgs" />
+  <depend package="cyphy_kbd_drone" />
+
+<!-- <rosdep name="eigen"/> -->
+  <depend package="dynamic_reconfigure" />
+
+</package>
+
+

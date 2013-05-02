@@ -1,0 +1,307 @@
+The system is: Linux - 3.8.6-030806-generic - i686
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc-4.6 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/g++-4.6 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec95622402/fast"
+make[1]: Entering directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec95622402.dir/build.make CMakeFiles/cmTryCompileExec95622402.dir/build
+make[2]: Entering directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec95622402.dir/testCCompiler.c.o
+/usr/bin/gcc-4.6    -o CMakeFiles/cmTryCompileExec95622402.dir/testCCompiler.c.o   -c /home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec95622402
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec95622402.dir/link.txt --verbose=1
+/usr/bin/gcc-4.6         CMakeFiles/cmTryCompileExec95622402.dir/testCCompiler.c.o  -o cmTryCompileExec95622402 -rdynamic 
+make[2]: Leaving directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1962138142/fast"
+make[1]: Entering directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1962138142.dir/build.make CMakeFiles/cmTryCompileExec1962138142.dir/build
+make[2]: Entering directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1962138142.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc-4.6    -o CMakeFiles/cmTryCompileExec1962138142.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1962138142
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1962138142.dir/link.txt --verbose=1
+/usr/bin/gcc-4.6       -v CMakeFiles/cmTryCompileExec1962138142.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1962138142 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc-4.6
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.6/lto-wrapper
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.6.3-10ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.6/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.6 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.6 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.6.3 20120918 (prerelease) (Ubuntu/Linaro 4.6.3-10ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1962138142' '-rdynamic' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec1962138142 /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.6 -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec1962138142.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-linux-gnu/4.6/crtend.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crtn.o
+make[2]: Leaving directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec1962138142/fast"]
+  ignore line: [make[1]: Entering directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1962138142.dir/build.make CMakeFiles/cmTryCompileExec1962138142.dir/build]
+  ignore line: [make[2]: Entering directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1962138142.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc-4.6    -o CMakeFiles/cmTryCompileExec1962138142.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1962138142]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1962138142.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc-4.6       -v CMakeFiles/cmTryCompileExec1962138142.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1962138142 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc-4.6]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.6/lto-wrapper]
+  ignore line: [Target: i686-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.6.3-10ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.6/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.6 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.6 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.6.3 20120918 (prerelease) (Ubuntu/Linaro 4.6.3-10ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1962138142' '-rdynamic' '-mtune=generic' '-march=i686']
+  link line: [ /usr/lib/gcc/i686-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec1962138142 /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.6 -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec1962138142.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-linux-gnu/4.6/crtend.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1962138142] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib]
+    arg [-L/lib/i386-linux-gnu] ==> dir [/lib/i386-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6/../../..] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../..]
+    arg [CMakeFiles/cmTryCompileExec1962138142.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6] ==> [/usr/lib/gcc/i686-linux-gnu/4.6]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib] ==> [/usr/lib]
+  collapse dir [/lib/i386-linux-gnu] ==> [/lib/i386-linux-gnu]
+  collapse dir [/lib/../lib] ==> [/lib]
+  collapse dir [/usr/lib/i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/i686-linux-gnu/4.6;/usr/lib/i386-linux-gnu;/usr/lib;/lib/i386-linux-gnu;/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4200614265/fast"
+make[1]: Entering directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4200614265.dir/build.make CMakeFiles/cmTryCompileExec4200614265.dir/build
+make[2]: Entering directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4200614265.dir/testCXXCompiler.cxx.o
+/usr/bin/g++-4.6     -o CMakeFiles/cmTryCompileExec4200614265.dir/testCXXCompiler.cxx.o -c /home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec4200614265
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4200614265.dir/link.txt --verbose=1
+/usr/bin/g++-4.6          CMakeFiles/cmTryCompileExec4200614265.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec4200614265 -rdynamic 
+make[2]: Leaving directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2834113689/fast"
+make[1]: Entering directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2834113689.dir/build.make CMakeFiles/cmTryCompileExec2834113689.dir/build
+make[2]: Entering directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2834113689.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++-4.6     -o CMakeFiles/cmTryCompileExec2834113689.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2834113689
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2834113689.dir/link.txt --verbose=1
+/usr/bin/g++-4.6        -v CMakeFiles/cmTryCompileExec2834113689.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2834113689 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/g++-4.6
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.6/lto-wrapper
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.6.3-10ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.6/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.6 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.6 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.6.3 20120918 (prerelease) (Ubuntu/Linaro 4.6.3-10ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2834113689' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec2834113689 /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.6 -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec2834113689.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/4.6/crtend.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crtn.o
+make[2]: Leaving directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec2834113689/fast"]
+  ignore line: [make[1]: Entering directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2834113689.dir/build.make CMakeFiles/cmTryCompileExec2834113689.dir/build]
+  ignore line: [make[2]: Entering directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2834113689.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++-4.6     -o CMakeFiles/cmTryCompileExec2834113689.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2834113689]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2834113689.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++-4.6        -v CMakeFiles/cmTryCompileExec2834113689.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2834113689 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/g++-4.6]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.6/lto-wrapper]
+  ignore line: [Target: i686-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.6.3-10ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.6/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.6 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.6 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.6.3 20120918 (prerelease) (Ubuntu/Linaro 4.6.3-10ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2834113689' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  link line: [ /usr/lib/gcc/i686-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec2834113689 /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.6 -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec2834113689.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/4.6/crtend.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2834113689] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib]
+    arg [-L/lib/i386-linux-gnu] ==> dir [/lib/i386-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6/../../..] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../..]
+    arg [CMakeFiles/cmTryCompileExec2834113689.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6] ==> [/usr/lib/gcc/i686-linux-gnu/4.6]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib] ==> [/usr/lib]
+  collapse dir [/lib/i386-linux-gnu] ==> [/lib/i386-linux-gnu]
+  collapse dir [/lib/../lib] ==> [/lib]
+  collapse dir [/usr/lib/i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/i686-linux-gnu/4.6;/usr/lib/i386-linux-gnu;/usr/lib;/lib/i386-linux-gnu;/lib]
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3121833514/fast"
+make[1]: Entering directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3121833514.dir/build.make CMakeFiles/cmTryCompileExec3121833514.dir/build
+make[2]: Entering directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3121833514.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc-4.6    -o CMakeFiles/cmTryCompileExec3121833514.dir/CheckIncludeFiles.c.o   -c /home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3121833514
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3121833514.dir/link.txt --verbose=1
+/usr/bin/gcc-4.6         CMakeFiles/cmTryCompileExec3121833514.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3121833514 -rdynamic 
+make[2]: Leaving directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3140400167/fast"
+make[1]: Entering directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3140400167.dir/build.make CMakeFiles/cmTryCompileExec3140400167.dir/build
+make[2]: Entering directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3140400167.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-4.6   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3140400167.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3140400167
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3140400167.dir/link.txt --verbose=1
+/usr/bin/gcc-4.6     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3140400167.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3140400167 -rdynamic -lpthread 
+make[2]: Leaving directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/futuhal57/ros/stacks/ardrone_pose_estimation/build/CMakeFiles/CMakeTmp'
+
+

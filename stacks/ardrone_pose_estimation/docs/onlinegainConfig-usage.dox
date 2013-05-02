@@ -1,0 +1,12 @@
+\subsubsection usage Usage
+\verbatim
+<node name="ardrone_pose_estimation" pkg="ardrone_pose_estimation" type="ardrone_pose_estimation">
+  <param name="Position_P" type="double" value="0.23" />
+  <param name="Position_I" type="double" value="0.01" />
+  <param name="Position_D" type="double" value="0.26" />
+  <param name="Velocity_P" type="double" value="0.2" />
+  <param name="Velocity_I" type="double" value="0.0" />
+  <param name="Velocity_D" type="double" value="0.12" />
+</node>
+\endverbatim
+

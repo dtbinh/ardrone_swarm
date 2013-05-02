@@ -1,0 +1,1 @@
+svn info /home/futuhal57/ros/stacks/hector_common/bfl_boost/build/orocos-bfl-0.8.0 | grep '^Revision' | sed -e 's/Revision: *//'

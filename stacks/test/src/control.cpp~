@@ -1,0 +1,51 @@
+#include <ros/ros.h>
+#include <std_msgs/Empty.h>
+#include <geometry_msgs/Twist.h>
+#include <ardrone_autonomy/Navdata.h>
+
+//Declare a string with the name of the window that we will create using OpenCV where processed images will be displayed.
+static const char WINDOW[] = "Basic Drone Control";
+
+ros::Subscriber nav;    
+ros::Publisher landing; 
+ros::Publisher velo; 
+std_msgs::Empty empty;
+ros::Publisher takeoff; 
+
+void navi(const ardrone_autonomy::Navdata& msg){
+   ROS_INFO("Battery %f, RotX %f, RotY %f, RotZ %f", msg.batteryPercent, msg.rotX, msg.rotY, msg.rotZ);
+}
+
+int main (int argc, char **argv){
+   	ros::init(argc, argv, "basic_control");
+   	ros::NodeHandle control;
+       	nav = control.subscribe("/ardrone/navdata",10,&navi);
+	
+	landing = control.advertise<std_msgs::Empty>("/ardrone/land",10);
+	velo =  control.advertise<geometry_msgs::Twist>("/cmd_vel",10);
+	takeoff = control.advertise<std_msgs::Empty>("/ardrone/takeoff",10);
+	
+	takeoff.publish(empty);
+	ros::Duration t(4);
+	t.sleep();
+	takeoff.publish(empty);	
+	takeoff.publish(empty);	
+	takeoff.publish(empty);	
+	takeoff.publish(empty);	
+	takeoff.publish(empty);	
+	
+	//sleep(500);
+	
+	//landing.publish(empty);
+	//d.sleep(3);	
+	landing.publish(empty);
+	//ros::Duration l(2);
+	t.sleep();
+	landing.publish(empty);
+	landing.publish(empty);
+	
+	
+	ros::spin();
+	
+	ROS_INFO("tutorialROSOpenCV::main.cpp::No error.");
+}

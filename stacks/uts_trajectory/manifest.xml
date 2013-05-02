@@ -1,0 +1,23 @@
+<package>
+  <description brief="uts_trajectory">
+
+     uts_trajectory
+
+  </description>
+  <author>anwar</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/uts_trajectory</url>
+  <depend package="cmvision"/>
+  <depend package="std_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="roscpp"/>
+  <depend package="rospy"/>
+  <depend package="ardrone_autonomy"/>
+  <depend package="sensor_msgs"/>
+  <depend package="opencv2"/>
+  <depend package="cv_bridge"/>
+  <rosdep name="wxwidgets"/>
+</package>
+
+

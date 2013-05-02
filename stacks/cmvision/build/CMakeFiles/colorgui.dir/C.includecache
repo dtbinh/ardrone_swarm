@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/futuhal57/ros/stacks/cmvision/src/conversions.c
+string.h
+-
+conversions.h
+/home/futuhal57/ros/stacks/cmvision/src/conversions.h
+
+/home/futuhal57/ros/stacks/cmvision/src/conversions.h
+stdlib.h
+-
+stdio.h
+-
+

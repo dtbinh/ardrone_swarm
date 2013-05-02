@@ -1,0 +1,5 @@
+GLOBAL_ADD_INCLUDE_DIR( ${PROJECT_SOURCE_DIR}/src/wrappers/rng )
+GLOBAL_ADD_INCLUDE_DIR( ${PROJECT_BINARY_DIR}/src/wrappers/rng )
+GLOBAL_ADD_INCLUDE_DIR( ${RNG_INCLUDE} )
+GLOBAL_ADD_INCLUDE( bfl/wrappers/rng rng.h )
+GLOBAL_ADD_SRC ( wrappers/rng/rng.cpp )

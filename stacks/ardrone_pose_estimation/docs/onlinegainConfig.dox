@@ -1,0 +1,11 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~Position_P" : \b [double] Position P gain. The default value is 0.23 min: 0.0, default: 0.23, max: 1.0
+- \b "~Position_I" : \b [double] Position I gain. The default value is 0.01 min: 0.0, default: 0.01, max: 1.0
+- \b "~Position_D" : \b [double] Position D gain. The default value is 0.26 min: 0.0, default: 0.26, max: 1.0
+- \b "~Velocity_P" : \b [double] Velocity P gain. The default value is 0.2 min: 0.0, default: 0.2, max: 2.0
+- \b "~Velocity_I" : \b [double] Velocity I gain. The default value is 0.0 min: 0.0, default: 0.0, max: 2.0
+- \b "~Velocity_D" : \b [double] Velocity D gain. The default value is 0.12 min: 0.0, default: 0.12, max: 2.0
+

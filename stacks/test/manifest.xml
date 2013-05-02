@@ -1,0 +1,20 @@
+<package>
+  <description brief="test">
+
+     test
+
+  </description>
+  <author>Futuhal Arifin Annasri</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/test</url>
+
+  <depend package="std_msgs"/>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="ardrone_autonomy"/>
+  <depend package="cmvision"/>
+  <depend package="sensor_msgs"/>
+</package>
+
+

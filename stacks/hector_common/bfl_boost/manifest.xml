@@ -1,0 +1,18 @@
+<package>
+  <description brief="The Bayesian Filtering Library (latest) with Boost matrix class">
+
+    This package contains a recent version of the Bayesian Filtering
+    Library (BFL), distributed by the Orocos Project. Compared to the original bfl package by Klaas Gadeyne et. al., bfl_boost downloads the current 0.8 source release from the Orocos BFL website and applies a small patch to avoid copying of vectors and matrices when accessing its elements.
+    The package name bfl_boost emphasizes the fact that the Boost uBLAS library is used as underlying matrix library.
+
+  </description>
+  <author>Klaas Gadeyne, Wim Meeussen, Tinne Delaet and many others. See web page for a full contributor list. Boost patch added by Johannes Meyer.</author>
+  <license>LGPL</license>
+  <url>http://www.orocos.org/bfl</url>
+  <export>
+    <cpp cflags="-I${prefix}/install/include" lflags="-Wl,-rpath,${prefix}/install/lib  -L${prefix}/install/lib -lorocos-bfl"/>
+    <doxymaker external="http://orocos.org/bfl" />
+  </export>
+
+</package>
+

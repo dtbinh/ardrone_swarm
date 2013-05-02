@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/futuhal57/ros/stacks/hector_trajectory_server/hector_map_tools/build/devel/setup.sh

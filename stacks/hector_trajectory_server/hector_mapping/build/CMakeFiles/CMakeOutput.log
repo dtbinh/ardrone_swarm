@@ -1,0 +1,614 @@
+The system is: Linux - 3.8.6-030806-generic - i686
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc-4.6 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/g++-4.6 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3528090301/fast"
+make[1]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3528090301.dir/build.make CMakeFiles/cmTryCompileExec3528090301.dir/build
+make[2]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3528090301.dir/testCCompiler.c.o
+/usr/bin/gcc-4.6    -o CMakeFiles/cmTryCompileExec3528090301.dir/testCCompiler.c.o   -c /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3528090301
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3528090301.dir/link.txt --verbose=1
+/usr/bin/gcc-4.6         CMakeFiles/cmTryCompileExec3528090301.dir/testCCompiler.c.o  -o cmTryCompileExec3528090301 -rdynamic 
+make[2]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1171619476/fast"
+make[1]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1171619476.dir/build.make CMakeFiles/cmTryCompileExec1171619476.dir/build
+make[2]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1171619476.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc-4.6    -o CMakeFiles/cmTryCompileExec1171619476.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1171619476
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1171619476.dir/link.txt --verbose=1
+/usr/bin/gcc-4.6       -v CMakeFiles/cmTryCompileExec1171619476.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1171619476 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc-4.6
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.6/lto-wrapper
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.6.3-10ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.6/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.6 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.6 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.6.3 20120918 (prerelease) (Ubuntu/Linaro 4.6.3-10ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1171619476' '-rdynamic' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec1171619476 /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.6 -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec1171619476.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-linux-gnu/4.6/crtend.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crtn.o
+make[2]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec1171619476/fast"]
+  ignore line: [make[1]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1171619476.dir/build.make CMakeFiles/cmTryCompileExec1171619476.dir/build]
+  ignore line: [make[2]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1171619476.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc-4.6    -o CMakeFiles/cmTryCompileExec1171619476.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1171619476]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1171619476.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc-4.6       -v CMakeFiles/cmTryCompileExec1171619476.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1171619476 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc-4.6]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.6/lto-wrapper]
+  ignore line: [Target: i686-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.6.3-10ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.6/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.6 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.6 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.6.3 20120918 (prerelease) (Ubuntu/Linaro 4.6.3-10ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1171619476' '-rdynamic' '-mtune=generic' '-march=i686']
+  link line: [ /usr/lib/gcc/i686-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec1171619476 /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.6 -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec1171619476.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-linux-gnu/4.6/crtend.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1171619476] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib]
+    arg [-L/lib/i386-linux-gnu] ==> dir [/lib/i386-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6/../../..] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../..]
+    arg [CMakeFiles/cmTryCompileExec1171619476.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6] ==> [/usr/lib/gcc/i686-linux-gnu/4.6]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib] ==> [/usr/lib]
+  collapse dir [/lib/i386-linux-gnu] ==> [/lib/i386-linux-gnu]
+  collapse dir [/lib/../lib] ==> [/lib]
+  collapse dir [/usr/lib/i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/i686-linux-gnu/4.6;/usr/lib/i386-linux-gnu;/usr/lib;/lib/i386-linux-gnu;/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec649886911/fast"
+make[1]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec649886911.dir/build.make CMakeFiles/cmTryCompileExec649886911.dir/build
+make[2]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec649886911.dir/testCXXCompiler.cxx.o
+/usr/bin/g++-4.6     -o CMakeFiles/cmTryCompileExec649886911.dir/testCXXCompiler.cxx.o -c /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec649886911
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec649886911.dir/link.txt --verbose=1
+/usr/bin/g++-4.6          CMakeFiles/cmTryCompileExec649886911.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec649886911 -rdynamic 
+make[2]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3947109732/fast"
+make[1]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3947109732.dir/build.make CMakeFiles/cmTryCompileExec3947109732.dir/build
+make[2]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3947109732.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++-4.6     -o CMakeFiles/cmTryCompileExec3947109732.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3947109732
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3947109732.dir/link.txt --verbose=1
+/usr/bin/g++-4.6        -v CMakeFiles/cmTryCompileExec3947109732.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3947109732 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/g++-4.6
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.6/lto-wrapper
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.6.3-10ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.6/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.6 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.6 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.6.3 20120918 (prerelease) (Ubuntu/Linaro 4.6.3-10ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3947109732' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec3947109732 /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.6 -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec3947109732.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/4.6/crtend.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crtn.o
+make[2]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3947109732/fast"]
+  ignore line: [make[1]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3947109732.dir/build.make CMakeFiles/cmTryCompileExec3947109732.dir/build]
+  ignore line: [make[2]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3947109732.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++-4.6     -o CMakeFiles/cmTryCompileExec3947109732.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3947109732]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3947109732.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++-4.6        -v CMakeFiles/cmTryCompileExec3947109732.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3947109732 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/g++-4.6]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.6/lto-wrapper]
+  ignore line: [Target: i686-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.6.3-10ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.6/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.6 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.6 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.6.3 20120918 (prerelease) (Ubuntu/Linaro 4.6.3-10ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3947109732' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  link line: [ /usr/lib/gcc/i686-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec3947109732 /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.6 -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec3947109732.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/4.6/crtend.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3947109732] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib]
+    arg [-L/lib/i386-linux-gnu] ==> dir [/lib/i386-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6/../../..] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../..]
+    arg [CMakeFiles/cmTryCompileExec3947109732.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6] ==> [/usr/lib/gcc/i686-linux-gnu/4.6]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib] ==> [/usr/lib]
+  collapse dir [/lib/i386-linux-gnu] ==> [/lib/i386-linux-gnu]
+  collapse dir [/lib/../lib] ==> [/lib]
+  collapse dir [/usr/lib/i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/i686-linux-gnu/4.6;/usr/lib/i386-linux-gnu;/usr/lib;/lib/i386-linux-gnu;/lib]
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4043457745/fast"
+make[1]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4043457745.dir/build.make CMakeFiles/cmTryCompileExec4043457745.dir/build
+make[2]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4043457745.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc-4.6    -o CMakeFiles/cmTryCompileExec4043457745.dir/CheckIncludeFiles.c.o   -c /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4043457745
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4043457745.dir/link.txt --verbose=1
+/usr/bin/gcc-4.6         CMakeFiles/cmTryCompileExec4043457745.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4043457745 -rdynamic 
+make[2]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2138768115/fast"
+make[1]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2138768115.dir/build.make CMakeFiles/cmTryCompileExec2138768115.dir/build
+make[2]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2138768115.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-4.6   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2138768115.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2138768115
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2138768115.dir/link.txt --verbose=1
+/usr/bin/gcc-4.6     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2138768115.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2138768115 -rdynamic -lpthread 
+make[2]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+
+
+The system is: Linux - 3.8.6-030806-generic - i686
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc-4.6 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/g++-4.6 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1221574406/fast"
+make[1]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1221574406.dir/build.make CMakeFiles/cmTryCompileExec1221574406.dir/build
+make[2]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1221574406.dir/testCCompiler.c.o
+/usr/bin/gcc-4.6    -o CMakeFiles/cmTryCompileExec1221574406.dir/testCCompiler.c.o   -c /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1221574406
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1221574406.dir/link.txt --verbose=1
+/usr/bin/gcc-4.6         CMakeFiles/cmTryCompileExec1221574406.dir/testCCompiler.c.o  -o cmTryCompileExec1221574406 -rdynamic 
+make[2]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1672204193/fast"
+make[1]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1672204193.dir/build.make CMakeFiles/cmTryCompileExec1672204193.dir/build
+make[2]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1672204193.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc-4.6    -o CMakeFiles/cmTryCompileExec1672204193.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1672204193
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1672204193.dir/link.txt --verbose=1
+/usr/bin/gcc-4.6       -v CMakeFiles/cmTryCompileExec1672204193.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1672204193 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc-4.6
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.6/lto-wrapper
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.6.3-10ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.6/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.6 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.6 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.6.3 20120918 (prerelease) (Ubuntu/Linaro 4.6.3-10ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1672204193' '-rdynamic' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec1672204193 /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.6 -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec1672204193.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-linux-gnu/4.6/crtend.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crtn.o
+make[2]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec1672204193/fast"]
+  ignore line: [make[1]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1672204193.dir/build.make CMakeFiles/cmTryCompileExec1672204193.dir/build]
+  ignore line: [make[2]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1672204193.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc-4.6    -o CMakeFiles/cmTryCompileExec1672204193.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1672204193]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1672204193.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc-4.6       -v CMakeFiles/cmTryCompileExec1672204193.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1672204193 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc-4.6]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.6/lto-wrapper]
+  ignore line: [Target: i686-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.6.3-10ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.6/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.6 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.6 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.6.3 20120918 (prerelease) (Ubuntu/Linaro 4.6.3-10ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1672204193' '-rdynamic' '-mtune=generic' '-march=i686']
+  link line: [ /usr/lib/gcc/i686-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec1672204193 /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.6 -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec1672204193.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-linux-gnu/4.6/crtend.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1672204193] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib]
+    arg [-L/lib/i386-linux-gnu] ==> dir [/lib/i386-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6/../../..] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../..]
+    arg [CMakeFiles/cmTryCompileExec1672204193.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6] ==> [/usr/lib/gcc/i686-linux-gnu/4.6]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib] ==> [/usr/lib]
+  collapse dir [/lib/i386-linux-gnu] ==> [/lib/i386-linux-gnu]
+  collapse dir [/lib/../lib] ==> [/lib]
+  collapse dir [/usr/lib/i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/i686-linux-gnu/4.6;/usr/lib/i386-linux-gnu;/usr/lib;/lib/i386-linux-gnu;/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2581967735/fast"
+make[1]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2581967735.dir/build.make CMakeFiles/cmTryCompileExec2581967735.dir/build
+make[2]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2581967735.dir/testCXXCompiler.cxx.o
+/usr/bin/g++-4.6     -o CMakeFiles/cmTryCompileExec2581967735.dir/testCXXCompiler.cxx.o -c /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2581967735
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2581967735.dir/link.txt --verbose=1
+/usr/bin/g++-4.6          CMakeFiles/cmTryCompileExec2581967735.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2581967735 -rdynamic 
+make[2]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2532089869/fast"
+make[1]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2532089869.dir/build.make CMakeFiles/cmTryCompileExec2532089869.dir/build
+make[2]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2532089869.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++-4.6     -o CMakeFiles/cmTryCompileExec2532089869.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2532089869
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2532089869.dir/link.txt --verbose=1
+/usr/bin/g++-4.6        -v CMakeFiles/cmTryCompileExec2532089869.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2532089869 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/g++-4.6
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.6/lto-wrapper
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.6.3-10ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.6/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.6 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.6 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.6.3 20120918 (prerelease) (Ubuntu/Linaro 4.6.3-10ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2532089869' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec2532089869 /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.6 -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec2532089869.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/4.6/crtend.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crtn.o
+make[2]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec2532089869/fast"]
+  ignore line: [make[1]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2532089869.dir/build.make CMakeFiles/cmTryCompileExec2532089869.dir/build]
+  ignore line: [make[2]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2532089869.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++-4.6     -o CMakeFiles/cmTryCompileExec2532089869.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2532089869]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2532089869.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++-4.6        -v CMakeFiles/cmTryCompileExec2532089869.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2532089869 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/g++-4.6]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.6/lto-wrapper]
+  ignore line: [Target: i686-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.6.3-10ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.6/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.6 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.6 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.6.3 20120918 (prerelease) (Ubuntu/Linaro 4.6.3-10ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.6/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.6/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2532089869' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  link line: [ /usr/lib/gcc/i686-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec2532089869 /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.6 -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec2532089869.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/4.6/crtend.o /usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2532089869] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib]
+    arg [-L/lib/i386-linux-gnu] ==> dir [/lib/i386-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.6/../../..] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../..]
+    arg [CMakeFiles/cmTryCompileExec2532089869.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6] ==> [/usr/lib/gcc/i686-linux-gnu/4.6]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../../../lib] ==> [/usr/lib]
+  collapse dir [/lib/i386-linux-gnu] ==> [/lib/i386-linux-gnu]
+  collapse dir [/lib/../lib] ==> [/lib]
+  collapse dir [/usr/lib/i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.6/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/i686-linux-gnu/4.6;/usr/lib/i386-linux-gnu;/usr/lib;/lib/i386-linux-gnu;/lib]
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1342723978/fast"
+make[1]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1342723978.dir/build.make CMakeFiles/cmTryCompileExec1342723978.dir/build
+make[2]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1342723978.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc-4.6    -o CMakeFiles/cmTryCompileExec1342723978.dir/CheckIncludeFiles.c.o   -c /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1342723978
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1342723978.dir/link.txt --verbose=1
+/usr/bin/gcc-4.6         CMakeFiles/cmTryCompileExec1342723978.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1342723978 -rdynamic 
+make[2]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2884604354/fast"
+make[1]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2884604354.dir/build.make CMakeFiles/cmTryCompileExec2884604354.dir/build
+make[2]: Entering directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2884604354.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-4.6   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2884604354.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2884604354
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2884604354.dir/link.txt --verbose=1
+/usr/bin/gcc-4.6     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2884604354.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2884604354 -rdynamic -lpthread 
+make[2]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/futuhal57/ros/stacks/hector_trajectory_server/hector_mapping/build/CMakeFiles/CMakeTmp'
+
+

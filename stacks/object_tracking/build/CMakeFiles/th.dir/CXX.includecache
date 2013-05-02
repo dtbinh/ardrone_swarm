@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/futuhal57/ros/stacks/object_tracking/src/th.cpp
+iostream
+-
+iomanip
+-
+opencv2/cv.h
+-
+opencv2/highgui.h
+-
+cvblob.h
+-
+

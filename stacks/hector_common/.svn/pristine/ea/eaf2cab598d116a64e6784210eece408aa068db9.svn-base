@@ -1,0 +1,19 @@
+<package>
+  <description brief="The Bayesian Filtering Library (latest) with Eigen matrix class">
+
+    This package contains a recent version of the Bayesian Filtering
+    Library (BFL), distributed by the Orocos Project. Instead of the default Boost uBLAS library it uses Eigen for matrix operations.
+
+  </description>
+  <author>Klaas Gadeyne, Wim Meeussen, Tinne Delaet and many others. See web page for a full contributor list. Eigen matrix library support added by Johannes Meyer.</author>
+  <license>LGPL</license>
+  <url>http://www.orocos.org/bfl</url>
+  <export>
+    <cpp cflags="`pkg-config --cflags eigen3` -I${prefix}/install/include" lflags="-Wl,-rpath,${prefix}/install/lib  -L${prefix}/install/lib -lorocos-bfl"/>
+    <doxymaker external="http://orocos.org/bfl" />
+  </export>
+
+  <rosdep name="eigen"/>
+
+</package>
+

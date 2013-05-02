@@ -1,0 +1,19 @@
+<package>
+  <description brief="cyphy_kbd_drone">
+
+     cyphy_kbd_drone
+
+  </description>
+  <author>Inkyu Sa</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/cyphy_kbd</url>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="roslib"/>
+  <depend package="rosconsole"/>
+  <depend package="geometry_msgs"/>
+
+</package>
+
+
